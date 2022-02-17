@@ -1,5 +1,9 @@
 #dmopc16c1p0
 
+#input numberic values representing pizza qualities
+#output sentence about how satisfied a customer is with the pizza based
+#on the given qualities.
+
 W = int(input())
 C = int(input())
 
