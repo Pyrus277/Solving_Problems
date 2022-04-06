@@ -22,17 +22,18 @@
 N = int(input())
 villages = []
 for I in range(N):
-    village = int(input())
-    villages.append(village)
+    villages.append(int(input()))
 villages.sort()
 
 # initialize the iterator variable and size list
-i = 0
-sizes = []
+min_size = None
 
 # calculate the village sizes
 for i in range(1,len(villages)-1):
     size = ((villages[i] - villages[i-1])/2) + ((villages[i+1] - villages[i])/2)
-    sizes.append(size)
-    i += 1
-print(round(min(sizes),1))
+    if min_size is None:
+        min_size = size
+    if size < min_size:
+        min_size = size
+
+print(round(min_size,1))
