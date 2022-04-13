@@ -18,8 +18,8 @@
 # for 10 datasets
 for i in range(10):
     # get user inputs
-    F_D = input()
-    F, D = int(F_D[0]), int(F_D[2])
+    inpt = input().split()
+    F, D = int(inpt[0]), int(inpt[1])
     # Make a list of lists
     DS = []
     for j in range(D):
