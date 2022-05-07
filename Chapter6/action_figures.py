@@ -56,6 +56,3 @@ if unclean == 1:
 if unclean == 0:
     print('YES')
 
-
-
-
