@@ -18,7 +18,7 @@
 
 # Open the file and store the number of words, characters per line, and text in variables
 with open('word.in','r') as fhand:
-    constraints = fhand.readline().rstrip().split(' ')
+    constraints = fhand.readline().split(' ')
     words = int(constraints[0]) 
     line_maxchar = int(constraints[1])
     text = fhand.readline()
