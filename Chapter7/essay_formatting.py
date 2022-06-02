@@ -25,7 +25,7 @@ with open('word.in','r') as fhand:
 
 text = text.split(' ') # Turn the text into a list of words
 line_content = "" # Initialize a line content string variable...   
-count = 0 # and a counter variable to be compated with the line_maxchar number
+count = 0 # and a counter variable to be compared with the line_maxchar number
 
 # Iterate thru the list of words
 for i in range(words):
