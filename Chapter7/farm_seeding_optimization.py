@@ -38,7 +38,7 @@
 # Increment until you find the soln
 
 # Read the file and store the data
-with open('10.in', 'r') as fhand:
+with open('./farm_seeding_data/1.in', 'r') as fhand:
     inpt = fhand.read().splitlines()
 for i in range(len(inpt)):
     inpt[i] = [int(x) for x in inpt[i].split()]
